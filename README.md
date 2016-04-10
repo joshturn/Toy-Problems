@@ -1,1 +1,1 @@
-A repo of toy problems I've been solving.
+Solutions to various algorithm, data structure, and other toy problems.
