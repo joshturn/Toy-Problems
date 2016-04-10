@@ -1,6 +1,8 @@
+//Determine if the brackets in a given input string
+//are properly closed.
+
 var matchingTags = function(str){
-	var tags = {'{': 0, '[': 0, '(': 0, '|': 0};
-		debugger;
+	var tags = {'{': 0, '[': 0, '(': 0};
 
 		for (var i = 0; i < str.length; i++){
 			if (str[i] === '{' | '[' | '('){
@@ -12,9 +14,6 @@ var matchingTags = function(str){
 				} else {
 					tags[[str][i]]--;
 				}
-			}
-			if(str[i] === '|'){
-				tags['|']++;
 			}
 		}
 		for (var key in tags){
