@@ -24,4 +24,4 @@ var matchingTags = function(str){
 		return true;
 };
 
-Time complexity: O(n)
+//Time complexity: O(n)
